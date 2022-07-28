@@ -3,6 +3,7 @@
     width:1120px;
     height:500px; 
   }
+  
   /* mobile media query  */
   @media only screen and (max-width: 500px) {
     .display_property > img{
@@ -20,8 +21,22 @@
       text-align: center;
       overflow: hidden;
     }
-
+    .clasic-css-design{
+      margin-left: 100px;
+    }
+    .fa-brands{
+      padding: 10px;
+    }
   }
+  @media only screen and (min-width: 768px) {
+    .clasic-css-design{
+      margin-left: 330px;
+    }
+    .fa-brands{
+      padding: 10px;
+    }
+  }
+
   @media only screen and (min-width: 1000px) {
     .display_property > img{
       width: 100%;
@@ -39,5 +54,11 @@
     }
     .default-css{
      margin-top: 100px;
+    }
+    .clasic-css-design{
+      margin-left: 550px;
+    }
+    .fa-brands{
+      padding: 10px;
     }
   }
